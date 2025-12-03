@@ -284,7 +284,7 @@
     </main>
 
     <dialog class="modal" id="memory-dialog">
-      <form method="dialog" class="modal__content">
+      <div class="modal__content" role="document">
         <svg class="modal__icon" aria-hidden="true">
           <use href="./svg/sprite.svg#icon-floppy" />
         </svg>
@@ -293,10 +293,10 @@
           Запишите сюда воспоминание, сохраните репозиторий и поделитесь ссылкой. Пусть это будет точкой, где вы
           остановились, чтобы вдохнуть перед следующей главой.
         </p>
-        <button class="button modal__button" type="submit">
+        <button class="button modal__button" type="button">
           <span class="button__text">ОК</span>
         </button>
-      </form>
+      </div>
     </dialog>
 
     <script src="./scripts/like.js" defer></script>
