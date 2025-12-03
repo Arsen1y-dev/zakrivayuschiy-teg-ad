@@ -1,6 +1,9 @@
-:root {
+ :root {
   --font-main: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --font-accent: 'PressStart2P', 'Courier New', Courier, monospace;
+
+  --font-weight-text: 400;
+  --font-weight-title: 785;
 
   --text-main: #000;
   --text-muted: #5c5c5c;
