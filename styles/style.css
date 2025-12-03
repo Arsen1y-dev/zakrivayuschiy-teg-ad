@@ -126,7 +126,7 @@
   padding: 4px 8px;
 }
 
-.card__label {
+.card__label-text {
   color: var(--label-text);
   text-shadow:
     -1px 0 0 var(--card-border),
@@ -136,7 +136,7 @@
 }
 
 @supports ((-webkit-text-stroke: 1px var(--card-border)) or (text-stroke: 1px var(--card-border))) {
-  .card__label {
+  .card__label-text {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--card-border);
     text-stroke: 1px var(--card-border);
